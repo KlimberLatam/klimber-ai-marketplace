@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "klimber": {
+      "type": "http",
+      "url": "https://mcp.klimber.com/mcp"
+    }
+  }
+}

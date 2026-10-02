@@ -1,0 +1,20 @@
+{
+  "name": "klimber-ai-marketplace",
+  "interface": {
+    "displayName": "Klimber"
+  },
+  "plugins": [
+    {
+      "name": "klimber",
+      "source": {
+        "source": "local",
+        "path": "./plugins/klimber"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

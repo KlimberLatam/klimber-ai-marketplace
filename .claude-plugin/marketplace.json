@@ -1,0 +1,24 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "klimber-ai-marketplace",
+  "description": "Official Klimber plugins for Claude Code",
+  "owner": {
+    "name": "Klimber",
+    "email": "alvaro.arizu@klimber.com"
+  },
+  "plugins": [
+    {
+      "name": "klimber",
+      "source": "./plugins/klimber",
+      "description": "Query Klimber (products, quotations, policies and claims) from Claude Code, read-only",
+      "version": "0.2.0",
+      "category": "development",
+      "keywords": ["klimber", "insurance", "mcp"],
+      "homepage": "https://github.com/KlimberLatam/klimber-ai-marketplace",
+      "author": {
+        "name": "Klimber",
+        "email": "alvaro.arizu@klimber.com"
+      }
+    }
+  ]
+}

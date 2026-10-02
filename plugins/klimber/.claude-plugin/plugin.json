@@ -1,0 +1,12 @@
+{
+  "name": "klimber",
+  "version": "0.2.0",
+  "description": "Query Klimber (products, quotations, policies and claims) from Claude Code, read-only",
+  "author": {
+    "name": "Klimber",
+    "email": "alvaro.arizu@klimber.com"
+  },
+  "homepage": "https://github.com/KlimberLatam/klimber-ai-marketplace/tree/main/plugins/klimber",
+  "repository": "https://github.com/KlimberLatam/klimber-ai-marketplace",
+  "keywords": ["klimber", "insurance", "mcp"]
+}

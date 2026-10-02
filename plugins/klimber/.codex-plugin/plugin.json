@@ -1,0 +1,24 @@
+{
+  "name": "klimber",
+  "version": "0.2.0",
+  "description": "Query Klimber (products, quotations, policies and claims) from Codex, read-only",
+  "author": {
+    "name": "Klimber",
+    "email": "alvaro.arizu@klimber.com"
+  },
+  "homepage": "https://github.com/KlimberLatam/klimber-ai-marketplace/tree/main/plugins/klimber",
+  "repository": "https://github.com/KlimberLatam/klimber-ai-marketplace",
+  "license": "Proprietary",
+  "keywords": ["klimber", "insurance", "mcp"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Klimber",
+    "shortDescription": "Query Klimber, read-only",
+    "longDescription": "Ask general questions about Klimber in natural language. Sign-in happens on a Klimber page in your browser; your password never goes through the assistant.",
+    "developerName": "Klimber",
+    "category": "Productivity",
+    "capabilities": ["Read"],
+    "defaultPrompt": ["What products does Klimber offer?"]
+  }
+}
